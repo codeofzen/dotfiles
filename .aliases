@@ -5,6 +5,9 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias -- -="cd -"
 
+# list stuff
+alias ll='ls -la'
+
 # Shortcuts
 alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
@@ -15,3 +18,8 @@ alias cz="cd ~/development/codeofzen"
 alias g="git"
 alias h="history"
 alias j="jobs"
+
+# prefix common ruby-gems with bundle
+alias middleman='bundle exec middleman'
+alias rake='bundle exec rake'
+alias rspec='bundle exec rspec'
