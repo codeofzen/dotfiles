@@ -1,0 +1,17 @@
+# Easier navigation: .., ..., ~ and -
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias -- -="cd -"
+
+# Shortcuts
+alias d="cd ~/Documents/Dropbox"
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias p="cd ~/projects"
+alias p7="cd ~/development/p7s7"
+alias cz="cd ~/development/codeofzen"
+alias g="git"
+alias h="history"
+alias j="jobs"
