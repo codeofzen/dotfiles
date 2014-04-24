@@ -23,3 +23,8 @@ alias j="jobs"
 alias middleman='bundle exec middleman'
 alias rake='bundle exec rake'
 alias rspec='bundle exec rspec'
+
+
+# Applies syntax highlighting to the content of the clipboard and copies result back to the clipboard
+alias highlight_js='pbpaste | highlight --syntax=js -O rtf | pbcopy'
+alias highlight_html='pbpaste | highlight --syntax=html -O rtf | pbcopy'
