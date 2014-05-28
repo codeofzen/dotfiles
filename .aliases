@@ -16,7 +16,7 @@ alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
-alias p7="cd ~/development/p7s7"
+alias p7="cd ~/development/p7s1/code"
 alias cz="cd ~/development/codeofzen"
 alias g="git"
 alias h="history"
@@ -28,3 +28,8 @@ alias j="jobs"
 alias middleman='bundle exec middleman'
 alias rake='bundle exec rake'
 alias rspec='bundle exec rspec'
+
+
+# Applies syntax highlighting to the content of the clipboard and copies result back to the clipboard
+alias highlight_js='pbpaste | highlight --syntax=js -O rtf | pbcopy'
+alias highlight_html='pbpaste | highlight --syntax=html -O rtf | pbcopy'
