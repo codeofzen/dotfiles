@@ -31,3 +31,8 @@ function f() {
     find . -name "$1"
 }
 
+# change directory and copy dir to clipboard
+function cdc() {
+    cd "$1"
+    pwd | pbcopy
+}
